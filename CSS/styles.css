@@ -118,3 +118,31 @@ aside {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 2px;
 }
+
+footer{
+    padding-top: 50px;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+#footer-heading{
+    color: white;
+}
+#footer-par{
+    display: flex;
+    justify-content: center;
+}
+.footer-font {
+    color: white;
+    padding-right: 30px;
+}
+.fa-brands{
+    color: #DD0000;
+    font-size: 3em;
+    padding-right: 20px;
+}
+
+/*--------------------
+     Media Queris
+-------------------*/
+
