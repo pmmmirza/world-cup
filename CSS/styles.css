@@ -146,3 +146,21 @@ footer{
      Media Queris
 -------------------*/
 
+/* Mobile Device */
+@media only screen and (max-width:576px){
+    .banner {
+        width: 100%;
+    }
+    .transfer{
+    grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    /* Tablet Devices */
+@media only screen and (min-width:577px) and (max-width:992px){
+    .transfer{
+        grid-template-columns: repeat(2, 1fr);
+            }
+
+}
+
